@@ -1,3 +1,10 @@
+'''
+GETTING FAMILIAR WITH BASIC Stanford CoreNLP TASKS
+
+Stanford CoreNLP Python tutorial: https://towardsdatascience.com/natural-language-processing-using-stanfords-corenlp-d9e64c1e1024 
+Debugging nlp.annotate() outputs: https://stackoverflow.com/questions/39605817/is-there-any-way-to-have-pycorenlps-nlp-annotate-always-return-the-same-typ 
+'''
+
 from pycorenlp import StanfordCoreNLP
 import json
 nlp = StanfordCoreNLP('http://localhost:9000')
@@ -33,9 +40,10 @@ for word in result1["sentences"][2]["tokens"]:
 
 for elem in pos1:
     print(elem, end=' ')
+print('\n')
 
 # ner 
-print('\n\nNER\n----------')
+print('\nNER\n----------')
 text2 = "The earphones Jim bought for Jessica while strolling through the Apple store at the airport in Chicago, USA, were great."
 result2 = nlp.annotate(text2,
                    properties={
@@ -55,3 +63,4 @@ for word in result2["sentences"][0]['tokens']: # [1] changed to [0]
 
 for elem in pos2:
     print(elem, end=' ')
+print('\n')
