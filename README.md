@@ -6,4 +6,5 @@ Potential Areas of Focus:
 - Psychotic disorders (e.g., schizophrenia)
 
 Exploration of genetic basis for psychological disorders
+
 Exploration of biological overlap between psychological disorders
