@@ -1,4 +1,8 @@
-# Main Project: ESROP Global - KMUTT 2022
-Research supervisor: Professor Jonathan Chan
+# Disease-Gene Relationship Extraction Using NLP Techniques for Mental Disorders
 
-Project Title: Application of Deep Learning Techniques to Biomedical Text Mining for Hypothesis Generation
+Potential Areas of Focus:
+  - Mood disorders (e.g., depressive, bipolar)
+  - Anxiety disorders (e.g., panic, OCD, phobias)
+  - Psychotic disorders (e.g., schizophrenia)
+- Exploration of genetic basis for psychological disorders
+- Exploration of biological overlap between psychological disorders
