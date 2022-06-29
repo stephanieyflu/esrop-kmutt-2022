@@ -19,7 +19,7 @@ result1 = nlp.annotate(text1,
                        'timeout': 1000,
                    })
 
-if type(result1) is str or type(result1) is unicode:
+if type(result1) is str: # or type(result1) is unicode:
     result1 = json.loads(result1, strict=False)
 
 
@@ -54,7 +54,7 @@ result2 = nlp.annotate(text2,
                        'timeout': 1000,
                    })
 
-if type(result2) is str or type(result2) is unicode:
+if type(result2) is str: # or type(result2) is unicode:
     result2 = json.loads(result2, strict=False)
 
 pos2 = []
