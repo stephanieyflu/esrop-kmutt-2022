@@ -9,7 +9,9 @@ from pycorenlp import StanfordCoreNLP
 import json
 nlp = StanfordCoreNLP('http://localhost:9000')
 
-text1 = "This movie was actually neither that funny, nor super witty. The movie was meh. I liked watching that movie. If I had a choice, I would not watch that movie again."
+file = open('text.txt', 'r')
+
+text1 = file.read()
 result1 = nlp.annotate(text1,
                    properties={
                        'annotators': 'sentiment, ner, pos',
